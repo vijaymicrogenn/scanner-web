@@ -1,0 +1,47 @@
+# ---------------------------
+# Node.js
+# ---------------------------
+node_modules/
+dist/
+build/
+coverage/
+
+# ---------------------------
+# Environment files
+# ---------------------------
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*
+!.env.example
+
+# ---------------------------
+# Runtime / Logs / Temp
+# ---------------------------
+logs/
+*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+tmp/
+uploads/
+sessions/
+storage/
+pm2.log
+debug.log
+
+# ---------------------------
+# OS / Editor files
+# ---------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+*.bak
+*.tmp
