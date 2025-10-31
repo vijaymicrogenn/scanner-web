@@ -16,7 +16,8 @@ coverage/
 .env.production.local
 .env.*
 !.env.example
-
+images
+public
 # ---------------------------
 # Runtime / Logs / Temp
 # ---------------------------
